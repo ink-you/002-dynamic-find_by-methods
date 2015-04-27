@@ -22,3 +22,5 @@ And `find_by_complete(false)` returns one object, not an array, and works as `wh
 @tasks = Task.where('complete = ?', false).to_a
 @tasks = Task.where('complete = ?', false).order('created_at desc').to_a
 ```
+
+[http://www.rubydoc.info/docs/rails/ActiveRecord/Relation](http://www.rubydoc.info/docs/rails/ActiveRecord/Relation)
